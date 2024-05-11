@@ -5,9 +5,11 @@ const Portfolio = () => {
   return (
     <>
       <div className="flex flex-col justify-center">
-        <div className="bg-[#020617] h-[600px] space-y-16 flex flex-col justify-center">
-          <h1 className="text-center text-white text-2xl ">Portfolio</h1>
-          <div className="flex justify-around items-center shadow-2xl">
+        <div className="bg-[#020617] flex flex-col justify-center">
+          <h1 className="text-center text-white text-2xl pt-6 pb-12">
+            Portfolio
+          </h1>
+          <div className="lg:flex lg:justify-around lg:items-center lg:shadow-2xl flex flex-col space-y-4 items-center">
             <div className=" bg-slate-400 w-72 h-96 rounded-lg shadow-xl hover:animate-tiltshaking relative py-2">
               <img src={Coding} alt="picture" className="h-36 w-72" />
               <h1 className="text-center font-bold">To-Do App</h1>

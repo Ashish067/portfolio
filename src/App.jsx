@@ -1,18 +1,21 @@
 import React from "react";
-import Home from "./components/Home";
-import AboutMe from "./components/AboutMe";
-import Portfolio from "./components/Portfolio";
-import ContactMe from "./components/ContactMe";
-import Footer from "./components/Footer";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from "./pages/Home/Home";
+import About from "./pages/About/About";
+import Contact from "./pages/Contact/Contact";
+import Portfolio from "./pages/Portfolio/Portfolio";
 
 const App = () => {
   return (
     <>
-      <Home />
-      <AboutMe />
-      <Portfolio />
-      <ContactMe />
-      <Footer />
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+        </Routes>
+      </Router>
     </>
   );
 };

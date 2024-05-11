@@ -6,7 +6,7 @@ const AboutMe = () => {
   return (
     <>
       <div className=" bg-[#020617] flex justify-center items-center ">
-        <div className="w-[1080px] h-[704px] flex justify-around items-center">
+        <div className="w-[1080px] min-h-[600px] flex justify-around items-center">
           <div className="border-[12px] border-yellow-400 h-[400px] w-[370px] relative rounded-lg">
             <img
               src={ProfilePhoto2}
@@ -27,7 +27,7 @@ const AboutMe = () => {
               hiring or collaborating in projects please click on the button
               below.
             </p>
-            <button className="bg-[#FACC15] text-[#2F2604] px-4 py-2 rounded-md hover:bg-[#dcc462ed]">
+            <button className="bg-[#FACC15] text-[#2F2604] px-4 py-2 rounded-md hover:bg-[#facc15e1]">
               Contact me
             </button>
           </div>

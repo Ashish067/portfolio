@@ -3,7 +3,7 @@ import React from "react";
 const Skills = () => {
   return (
     <>
-      <div className="bg-[#111827]  h-[300px] text-white flex flex-col justify-between items-center pt-3">
+      <div className="bg-[#111827]  h-[300px] text-white flex flex-col justify-between items-center pt-3 rounded-3xl shadow-2xl">
         <h1 className="text-center text-2xl pt-12">Skills</h1>
         <div className="flex justify-around w-[1000px] h-[390px]">
           <div>

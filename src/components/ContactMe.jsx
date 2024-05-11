@@ -1,18 +1,15 @@
 import React from "react";
-import { FaFacebookSquare } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
 
 const ContactMe = () => {
   return (
     <>
-      <div className="bg-[#111827] text-white h-[595px]">
+      <div className="bg-[#111827] text-white h-[520px] rounded-3xl shadow-2xl">
         <div className="text-center">
           <h1 className="text-xl pt-10">
             Contact<span className="text-[#eab308]">Me</span>
           </h1>
         </div>
-        <div className="flex justify-around pt-24">
+        <div className="flex justify-around pt-16">
           <div className="flex items-center">
             <ul className="space-y-5">
               <li>
@@ -55,31 +52,11 @@ const ContactMe = () => {
               ></textarea>
             </div>
             <div>
-              <button className="bg-[#FACC15] text-[#2F2604] px-4 py-2 rounded-md hover:bg-[#dcc462ed]">
+              <button className="bg-[#FACC15] text-[#2F2604] px-4 py-2 rounded-md hover:bg-[#facc15e1]">
                 Submit
               </button>
             </div>
           </div>
-        </div>
-        <div
-          className="flex justify-center items-center
-        h-[60px] w-[300px] mx-auto"
-        >
-          <h1>Find me here</h1>
-        </div>
-        <div
-          className="flex justify-center items-center
-        h-[60px] w-[300px] space-x-4 mx-auto pb-10"
-        >
-          <a href="https://www.facebook.com/vandari.aashis">
-            <FaFacebookSquare size={30} />
-          </a>
-          <a href="https://github.com/Ashish067">
-            <FaGithub size={30} />
-          </a>
-          <a href="https://www.linkedin.com/in/ashish-bhandari-941b132a8/">
-            <FaLinkedin size={30} />
-          </a>
         </div>
       </div>
     </>
