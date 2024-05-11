@@ -3,15 +3,15 @@ import React from "react";
 const ContactMe = () => {
   return (
     <>
-      <div className="bg-[#111827] text-white h-[520px] rounded-3xl shadow-2xl">
+      <div className="bg-[#111827] text-white lg:h-[520px] rounded-3xl shadow-2xl">
         <div className="text-center">
-          <h1 className="text-xl pt-10">
+          <h1 className="text-xl pt-6 lg:pt-10">
             Contact<span className="text-[#eab308]">Me</span>
           </h1>
         </div>
-        <div className="flex justify-around pt-16">
-          <div className="flex items-center">
-            <ul className="space-y-5">
+        <div className="flex flex-col lg:flex-row justify-center items-center lg:justify-around pt-12 lg:pt-16">
+          <div className="flex items-center order-1 mt-8 lg:mt-0">
+            <ul className="space-y-3">
               <li>
                 <span className="font-bold text-[#eab308]">Address: </span>
                 Tulsipur -05-Dang, Nepal

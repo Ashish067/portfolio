@@ -2,6 +2,7 @@ import React from "react";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -12,15 +13,27 @@ const Footer = () => {
         </h1>
 
         <div className="flex justify-center items-center space-x-8">
-          <a href="https://www.facebook.com/vandari.aashis">
+          <Link
+            to="https://www.facebook.com/vandari.aashis"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             <FaFacebookSquare size={30} />
-          </a>
-          <a href="https://github.com/Ashish067">
+          </Link>
+          <Link
+            to="https://github.com/Ashish067"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             <FaGithub size={30} />
-          </a>
-          <a href="https://www.linkedin.com/in/ashish-bhandari-941b132a8/">
+          </Link>
+          <Link
+            to="https://www.linkedin.com/in/ashish-bhandari-941b132a8/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             <FaLinkedin size={30} />
-          </a>
+          </Link>
         </div>
       </div>
     </>

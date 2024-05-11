@@ -5,18 +5,18 @@ import Skills from "./Skills";
 const AboutMe = () => {
   return (
     <>
-      <div className=" bg-[#020617] flex justify-center items-center ">
-        <div className="w-[1080px] min-h-[600px] flex justify-around items-center">
-          <div className="border-[12px] border-yellow-400 h-[400px] w-[370px] relative rounded-lg">
+      <div className=" bg-[#020617] flex justify-center items-center">
+        <div className="lg:w-[1080px] lg:min-h-[600px] my-20 flex flex-col lg:flex-row justify-around items-center">
+          <div className="mt-6 md:mt-0 border-[12px] border-yellow-400 w-[330px] h-[330px] md:h-[400px] md:w-[370px] relative rounded-lg">
             <img
               src={ProfilePhoto2}
               alt="my photo here"
-              className="w-[370px] h-[400px] object-cover rounded-lg absolute -top-12 left-6"
+              className="w-[340px] h-[330px] md:w-[370px] md:h-[400px] object-cover rounded-lg absolute -top-16 left-6 md:-top-12 md:left-6"
             />
           </div>
 
-          <div className="w-[530px]  text-justify space-y-5 ">
-            <h1 className="text-white text-[24px]">
+          <div className="w-[80%] md:w-[530px]  text-justify space-y-5 ">
+            <h1 className="text-white text-[24px] pt-6 lg:pt-0">
               About <span className="text-[#eab308]">Me</span>
             </h1>
             <p className="text-white">
