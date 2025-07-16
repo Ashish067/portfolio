@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Coding from "../../../assets/coding.svg";
 import { PortfolioProjects } from "../../../datas/portfolio";
 import { truncateText } from "../../../utils/truncateText";

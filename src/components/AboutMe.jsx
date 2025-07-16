@@ -1,7 +1,6 @@
-import React from "react";
+import { useNavigate } from "react-router-dom";
 import ProfilePhoto2 from "../assets/img-2.jpg";
 import Skills from "./Skills";
-import { useNavigate } from "react-router-dom";
 
 const AboutMe = () => {
   const navigate = useNavigate();

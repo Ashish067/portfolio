@@ -1,6 +1,5 @@
-import React from "react";
-import Layout from "../../components/common/Layout";
 import AboutMe from "../../components/AboutMe";
+import Layout from "../../components/common/Layout";
 
 const About = () => {
   return (

@@ -1,4 +1,3 @@
-import React from "react";
 import Coding from "../assets/coding.svg";
 
 const Portfolio = () => {

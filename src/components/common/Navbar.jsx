@@ -1,8 +1,8 @@
-import React, { useState } from "react";
-import NavItems from "../NavItems";
-import { RxCross2 } from "react-icons/rx";
+import { useState } from "react";
 import { FaBars } from "react-icons/fa6";
+import { RxCross2 } from "react-icons/rx";
 import { useNavigate } from "react-router-dom";
+import NavItems from "../NavItems";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
