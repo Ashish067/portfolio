@@ -1,7 +1,18 @@
-import React from "react";
+import { useNavigate } from "react-router-dom";
 import ProfilePhoto from "../assets/img-1.jpg";
 
 const HeroSection = () => {
+  const navigate = useNavigate();
+
+  const handleOpenPDF = () => {
+    const pdfUrl = "/Ashish.pdf";
+    window.open(pdfUrl, "_blank");
+  };
+
+  const handleClick = (e) => {
+    e.preventDefault();
+    navigate("/portfolio");
+  };
   return (
     <>
       <div className="lg:relative bg-[#111827] w-full h-auto flex justify-center items-center py-10 md:rounded-3xl shadow-2xl md:w-full">
@@ -16,10 +27,16 @@ const HeroSection = () => {
             </p>
           </div>
           <div className="lg:absolute -left-[0px] xl:left-[98px] top-[64%] flex mx-auto space-x-4 items-start  pt-8 pb-0 md:py-6 order-2 md:flex md:justify-center lg:order-none">
-            <button className="bg-[#FACC15] text-[#2F2604] px-4 py-2 rounded-md hover:bg-[#facc15e1]">
+            <button
+              onClick={handleOpenPDF}
+              className="bg-[#FACC15] text-[#2F2604] px-4 py-2 rounded-md hover:bg-[#facc15e1]"
+            >
               Download Resume
             </button>
-            <button className="bg-[#FACC15] text-[#2F2604] px-4 py-2 rounded-md hover:bg-[#facc15e1]">
+            <button
+              onClick={handleClick}
+              className="bg-[#FACC15] text-[#2F2604] px-4 py-2 rounded-md hover:bg-[#facc15e1]"
+            >
               See My Work
             </button>
           </div>

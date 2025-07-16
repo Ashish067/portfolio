@@ -1,12 +1,12 @@
 import React from "react";
 import Layout from "../../components/common/Layout";
-import PortFolio from "../../components/Portfolio";
+import ProjectCard from "./components/ProjectCard";
 
 const Portfolio = () => {
   return (
     <>
       <Layout>
-        <PortFolio />
+        <ProjectCard />
       </Layout>
     </>
   );

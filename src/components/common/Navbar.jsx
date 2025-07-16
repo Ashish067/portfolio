@@ -2,9 +2,12 @@ import React, { useState } from "react";
 import NavItems from "../NavItems";
 import { RxCross2 } from "react-icons/rx";
 import { FaBars } from "react-icons/fa6";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const navigate = useNavigate();
+
   const handleToggleMenu = () => {
     setIsOpen(!isOpen);
   };
@@ -12,7 +15,12 @@ const Navbar = () => {
     <>
       <header className="px-[20px] md:px-[50px] lg:px-[90px] ">
         <div className="flex justify-between items-center min-h-[80px]">
-          <h2 className="text-[#EAB308] text-2xl ">Ashish</h2>
+          <h2
+            className="text-[#EAB308] text-2xl cursor-pointer"
+            onClick={() => navigate("/")}
+          >
+            Ashish
+          </h2>
           <div className="hidden lg:block">
             <NavItems />
           </div>

@@ -1,8 +1,10 @@
 import React from "react";
 import ProfilePhoto2 from "../assets/img-2.jpg";
 import Skills from "./Skills";
+import { useNavigate } from "react-router-dom";
 
 const AboutMe = () => {
+  const navigate = useNavigate();
   return (
     <>
       <div className=" bg-[#020617] flex justify-center items-center">
@@ -27,7 +29,10 @@ const AboutMe = () => {
               hiring or collaborating in projects please click on the button
               below.
             </p>
-            <button className="bg-[#FACC15] text-[#2F2604] px-4 py-2 rounded-md hover:bg-[#facc15e1]">
+            <button
+              onClick={() => navigate("/contact")}
+              className="bg-[#FACC15] text-[#2F2604] px-4 py-2 rounded-md hover:bg-[#facc15e1]"
+            >
               Contact me
             </button>
           </div>

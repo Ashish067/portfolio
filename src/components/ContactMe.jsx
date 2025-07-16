@@ -18,7 +18,7 @@ const ContactMe = () => {
               </li>
               <li>
                 <span className="font-bold text-[#eab308]">Phone: </span>
-                9812812367
+                +977 9812812367
               </li>
               <li>
                 <span className="font-bold text-[#eab308]">Email: </span>
