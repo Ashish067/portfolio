@@ -20,11 +20,4 @@ export const PortfolioProjects = [
     description:
       "This is the game developed utilizing basic react hooks such as useState, useEffect, asynchronous functions and many of the react concepts. In this game the player have to simply guess the number and roll the dice if the player guess is right the number is added if the player guess the wrong number then the player will lose 2 points from his score.",
   },
-  {
-    id: 4,
-    title: "To Do App",
-    uses: "React, And concepts in react.",
-    description:
-      "It is the very first project of my react journey. Basic hooks are used and CRUD operation on performed where the users can easily add, edit, and delete tasks. I finished this application around 1 year ago.",
-  },
 ];
