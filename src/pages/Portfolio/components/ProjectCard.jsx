@@ -20,15 +20,19 @@ const ProjectCard = () => {
     <>
       <div className="flex flex-col justify-center">
         <div className="bg-[#020617] flex flex-col justify-center">
-          <h1 className="text-center text-white text-2xl pt-6 pb-12">
+          <h1 className="text-center text-white text-2xl pb-10 pt-0">
             Portfolio Projects
           </h1>
-          <div className="lg:flex lg:justify-around lg:items-center lg:shadow-2xl flex  space-y-4 items-center">
+          <p className="text-center text-white text-xl pt-6 pb-12">
+            In this section you can find the works and projects I have worked on
+            and also see the live demo. Thanks for being here!!
+          </p>
+          <div className="flex flex-col lg:flex lg:flex-row lg:justify-around lg:items-center lg:shadow-2xl space-y-4 items-center">
             {PortfolioProjects.map((project) => (
-              <>
+              <div>
                 <div
                   key={project.id}
-                  className=" bg-[#dbae45] w-72 h-96 rounded-lg shadow-xl hover:animate-tiltshaking relative py-2"
+                  className=" bg-[#a0a5de] w-72 h-96 rounded-lg shadow-xl hover:animate-tiltshaking relative py-2"
                 >
                   <img src={Coding} alt="picture" className="h-36 w-72" />
                   <h1 className="text-center font-bold text-green-100">
@@ -69,7 +73,7 @@ const ProjectCard = () => {
                     </div>
                   </div>
                 )}
-              </>
+              </div>
             ))}
           </div>
         </div>
