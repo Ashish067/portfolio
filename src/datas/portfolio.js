@@ -1,14 +1,6 @@
 export const PortfolioProjects = [
   {
     id: 1,
-    title: "To Do App",
-    uses: "React, And basic concepts in react(state, props, components e.t.c.).",
-    description:
-      "It is the very first project of my react journey. Basic hooks are used and CRUD operation on performed where the users can easily add, edit, and delete tasks. I finished this application around 1 year ago.",
-    livelink: "https://react-ts-todo-app.vercel.app/",
-  },
-  {
-    id: 2,
     title: "E-commerce app",
     uses: "React, zustand, react-router-dom, axios, react-tostify,cart management.",
     description:
@@ -16,12 +8,20 @@ export const PortfolioProjects = [
     livelink: "https://e-commerce-tau-lake.vercel.app/",
   },
   {
-    id: 3,
+    id: 2,
     title: "Game Hub",
     uses: "React, chakra ui, react-router-dom, axios",
     description:
       "Built a game discovery web app using React, TypeScript, React Hook Form, and chakra UI. Created a modular HTTP service with Axios for efficient API integration. Designed reusable components with props and state, and implemented form handling for dynamic search and filter functionality.",
     livelink: "https://game-hub-beryl-omega.vercel.app/",
+  },
+  {
+    id: 3,
+    title: "To Do App",
+    uses: "React, And basic concepts in react(state, props, components e.t.c.).",
+    description:
+      "It is the very first project of my react journey. Basic hooks are used and CRUD operation on performed where the users can easily add, edit, and delete tasks. I finished this application around 1 year ago.",
+    livelink: "https://react-ts-todo-app.vercel.app/",
   },
 ];
 

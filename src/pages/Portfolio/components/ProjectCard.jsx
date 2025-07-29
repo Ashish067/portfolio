@@ -18,20 +18,20 @@ const ProjectCard = () => {
   };
   return (
     <div className="flex flex-col justify-center">
-      <div className="bg-[#020617] flex flex-col justify-center">
+      <div className="bg-[#020b17] flex flex-col justify-center">
         <h1 className="text-center text-white text-2xl pb-10 pt-0">
           Portfolio Projects
         </h1>
         <p className="text-center text-white text-xl pt-6 pb-12">
-          In this section you can find the works and projects I have worked on
-          and also see the live demo. Thanks for being here!!
+          Welcome to my portfolio section!! You can view the live demo of
+          projects I have worked on.
         </p>
         <div className="flex flex-col lg:flex lg:flex-row lg:justify-around lg:items-center lg:shadow-2xl space-y-4 items-center">
           {PortfolioProjects.map((project) => (
             <div>
               <div
                 key={project.id}
-                className=" bg-[#a0a5de] w-72 h-96 rounded-lg shadow-xl hover:animate-tiltshaking relative py-2"
+                className=" bg-[#76aacf] w-72 h-96 rounded-lg shadow-xl hover:animate-tiltshaking relative py-2"
               >
                 <img src={Coding} alt="picture" className="h-36 w-72" />
                 <h1 className="text-center font-bold text-green-100">
@@ -46,7 +46,7 @@ const ProjectCard = () => {
                 </p>
                 <button
                   onClick={() => openModal(project)}
-                  className="bg-[#0e2e4e] text-white rounded-xl p-2 hover:bg-[#3e5d7b] absolute left-1/2  transform -translate-x-1/2"
+                  className="border-2 text-white rounded-2xl p-2 hover:bg-[#3e5d7b] absolute left-1/2  transform -translate-x-1/2"
                 >
                   Read more
                 </button>
