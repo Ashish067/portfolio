@@ -1,5 +1,4 @@
 import { useNavigate } from "react-router-dom";
-import ProfilePhoto2 from "../../public/img-2.jpg";
 import Skills from "./Skills";
 
 const AboutMe = () => {
@@ -10,7 +9,7 @@ const AboutMe = () => {
         <div className="lg:w-[1080px] lg:min-h-[600px] my-20 flex flex-col lg:flex-row justify-around items-center">
           <div className="mt-6 md:mt-0 border-[12px] border-yellow-400 w-[330px] h-[330px] md:h-[400px] md:w-[370px] relative rounded-lg">
             <img
-              src={ProfilePhoto2}
+              src="/img-2.jpg"
               alt="image"
               loading="lazy"
               className="w-[340px] h-[330px] md:w-[370px] md:h-[400px] object-cover rounded-lg absolute -top-16 left-6 md:-top-12 md:left-6"
@@ -22,12 +21,13 @@ const AboutMe = () => {
               About <span className="text-[#eab308]">Me</span>
             </h1>
             <p className="text-white">
-              I am a CSIT graduate from Tribhuwan University. I am really
-              excited to say hello to you through this website. I am currently
-              working in some personal projects using HTML, CSS'tailwind css'
-              and javascript 'react'. If you want to get in touch with me for
-              hiring or collaborating in projects please click on the button
-              below.
+              Passionate frontend developer with a growth mindset, strong
+              ownership, and a drive for continuous learning. Thrive in
+              challenging environments and consistently deliver high-quality
+              solutions under pressure. I am a CSIT graduate from Tribhuwan
+              University. I am really excited to say hello to you through this
+              website. If you want to get in touch with me for hiring or
+              collaborating in projects please click on the button below.
             </p>
             <button
               onClick={() => navigate("/contact")}

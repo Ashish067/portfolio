@@ -21,7 +21,7 @@ const HeroSection = () => {
           <h3 className="text-2xl font-semibold pb-2">I am Ashish Bhandari,</h3>
           <p className="pb-6 md:py-6 text-3xl font-bold">Front-end Developer</p>
         </div>
-        <div className="md:flex-col md:gap-2 md:px-2 lg:flex-row lg:absolute -left-[0px] xl:left-[98px] top-[64%] flex mx-auto space-x-4 items-start  pt-8 pb-0 md:py-6 order-2 md:flex md:justify-center lg:order-none">
+        <div className="md:flex-col md:gap-2 md:px-2 lg:flex-row lg:absolute -left-[0px] xl:left-[130px] top-[64%] flex mx-auto space-x-4 items-start  pt-8 pb-0 md:py-6 order-2 md:flex md:justify-center lg:order-none">
           <button
             onClick={handleOpenPDF}
             className="bg-[#FACC15] text-[#2F2604] px-4 py-2 rounded-md hover:bg-[#facc15e1]"

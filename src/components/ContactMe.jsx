@@ -18,11 +18,11 @@ const ContactMe = () => {
               </li>
               <li>
                 <span className="font-bold text-[#eab308]">Phone: </span>
-                +977 9812812367
+                +977 9868636643
               </li>
               <li>
                 <span className="font-bold text-[#eab308]">Email: </span>
-                bhandariaashish54@gmail.com
+                coolboyashish5@gmail.com
               </li>
             </ul>
           </div>

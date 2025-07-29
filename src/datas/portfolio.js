@@ -2,22 +2,32 @@ export const PortfolioProjects = [
   {
     id: 1,
     title: "To Do App",
-    uses: "React, And concepts in react.",
+    uses: "React, And basic concepts in react(state, props, components e.t.c.).",
     description:
       "It is the very first project of my react journey. Basic hooks are used and CRUD operation on performed where the users can easily add, edit, and delete tasks. I finished this application around 1 year ago.",
+    livelink: "https://react-ts-todo-app.vercel.app/",
   },
   {
     id: 2,
-    title: "Weather App",
-    uses: "React, And concepts in react.",
+    title: "E-commerce app",
+    uses: "React, zustand, react-router-dom, axios, react-tostify,cart management.",
     description:
-      "This application is developed by using Open Weather Map api and axois in react employing many of the react concepts. Open Weather Map api is used to fetch the real time data and display the temperature based on the user's search. You will have to enter the name of the city and this application will display the information such as longitude latitude and temperature of the searched city.",
+      "This website is e-commerce application developed using Zustand for efficient cart state management and Axios for optimized API data fetching. Utilized React Router for smooth multi-page navigation. Focused on delivering a seamless user experience with clean and modular code.",
+    livelink: "https://e-commerce-tau-lake.vercel.app/",
   },
   {
     id: 3,
-    title: "Dice Game",
-    uses: "React, And concepts in react. what if this is very very long text that doesnot fit into 2 lines then i want the text to be hidden with ... at the end ",
+    title: "Game Hub",
+    uses: "React, chakra ui, react-router-dom, axios",
     description:
-      "This is the game developed utilizing basic react hooks such as useState, useEffect, asynchronous functions and many of the react concepts. In this game the player have to simply guess the number and roll the dice if the player guess is right the number is added if the player guess the wrong number then the player will lose 2 points from his score.",
+      "Built a game discovery web app using React, TypeScript, React Hook Form, and chakra UI. Created a modular HTTP service with Axios for efficient API integration. Designed reusable components with props and state, and implemented form handling for dynamic search and filter functionality.",
+    livelink: "https://game-hub-beryl-omega.vercel.app/",
   },
 ];
+
+const trash = {
+  descreption1:
+    "This website is e-commerce application developed using Zustand for efficient cart state management and Axios for optimized API data fetching. Utilized React Router for smooth multi-page navigation. Focused on delivering a seamless user experience with clean and modular code.",
+  description:
+    "This application is developed by using Open Weather Map api and axois in react employing many of the react concepts. Open Weather Map api is used to fetch the real time data and display the temperature based on the user's search. You will have to enter the name of the city and this application will display the information such as longitude latitude and temperature of the searched city.",
+};
