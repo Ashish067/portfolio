@@ -11,7 +11,8 @@ const AboutMe = () => {
           <div className="mt-6 md:mt-0 border-[12px] border-yellow-400 w-[330px] h-[330px] md:h-[400px] md:w-[370px] relative rounded-lg">
             <img
               src={ProfilePhoto2}
-              alt="my photo here"
+              alt="image"
+              loading="lazy"
               className="w-[340px] h-[330px] md:w-[370px] md:h-[400px] object-cover rounded-lg absolute -top-16 left-6 md:-top-12 md:left-6"
             />
           </div>
