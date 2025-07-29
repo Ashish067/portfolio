@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import ProfilePhoto2 from "../assets/img-2.jpg";
+import ProfilePhoto2 from "../../public/img-2.jpg";
 import Skills from "./Skills";
 
 const AboutMe = () => {
